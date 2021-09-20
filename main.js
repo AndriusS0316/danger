@@ -13,6 +13,7 @@ const push2 = document.querySelector('.push2');
 
 { document.querySelector(".push2").style.display = "none"; }
 { document.querySelector(".ispejimas2").style.display = "none"; }
+{ document.querySelector(".img").style.display = "none"; }
 
 
 function pushClick () {
@@ -21,6 +22,7 @@ function pushClick () {
 
     { document.querySelector(".push2").style.display = "block"; }
     { document.querySelector(".ispejimas2").style.display = "block"; }
+    { document.querySelector(".img").style.display = "block"; }
 }
 
 function push2Click () {

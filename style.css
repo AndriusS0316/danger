@@ -65,7 +65,7 @@ button {
     color: solid;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: orange;
+    background-color: rgb(255, 238, 0);
     display: flex;
     gap: 20px;
     position: absolute;
@@ -73,7 +73,20 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 100px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    border-radius: 200px;
+    padding: 145px;
+}
+.push2:hover {
+    background-color: orange;
+}
+.img {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 200px;
+    padding: 110px;
 }
