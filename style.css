@@ -2,14 +2,7 @@
     background-color: #eee;
 }
 
-form {
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 button {
     padding: 15px 40px;
     font-size: 50px;
@@ -18,4 +11,36 @@ button {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 8px 10px #0002;
+}
+.push {
+    color: solid;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.push:hover {
+    color: white;
+    background-color: red;
+}
+.ispejimas {
+    color: solid;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
