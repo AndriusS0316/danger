@@ -44,3 +44,36 @@ button {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.ispejimas2 {
+    color: solid;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: "----";
+}
+
+.push2 {
+    color: solid;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
