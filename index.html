@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>danger</title>
     <link rel="stylesheet" href="./style.css">
+
+    <style> 
+        #myDIV {
+          animation: mymove 100s infinite;
+        }
+        
+        @keyframes mymove {
+          100% {transform: rotate(7200deg);}
+        }
+    </style>
+
 </head>
 <body class="body">
         <div class="ispejimas">do not push this button</div>
@@ -27,6 +38,12 @@
         <button onClick="window.location.reload();" class="push3">don't push</button>
         <button onClick="window.location.reload();" class="push4">DO NOT PUSH</button>
         <button onClick="window.location.reload();" class="push5">do NOT fucking push</button>
+
+
+
+        <div id="myDIV">
+            <img class="loading" src="./loading.png" height="250px" alt="loading">
+        </div>
         
     <script src="./main.js" type="module" defer></script>
 </body>
