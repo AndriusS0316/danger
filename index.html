@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>danger</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style> 
+        #myDIV {
+          animation: mymove 100s infinite;
+        }
+        
+        @keyframes mymove {
+          100% {transform: rotate(7200deg);}
+        }
+    </style>
+
+</head>
+<body class="body">
+        <div class="ispejimas">do not push this button</div>
+        <button class="push">do not push</button>
+
+        <div class="ispejimas2">I told you so, do not push this button</div>
+        <button class="push2"><img class="img" src="./danger/danger.png" onmouseover="this.src='./danger/danger-red.png'" onmouseout="this.src='./danger/danger.png'" alt="danger"></button>
+
+        <div class="ispejimas3">Are you stupid? I told you, do not push this fucking button</div>
+        
+
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+
+        <div class="toggle">off</div>
+
+        <button onClick="window.location.reload();" class="push3">don't push</button>
+        <button onClick="window.location.reload();" class="push4">DO NOT PUSH</button>
+        <button onClick="window.location.reload();" class="push5">do NOT fucking push</button>
+
+
+
+        <div id="myDIV">
+            <img class="loading" src="./loading.png" height="250px" alt="loading">
+        </div>
+        
+    <script src="./main.js" type="module" defer></script>
+</body>
+</html>
