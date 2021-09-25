@@ -23,6 +23,9 @@ const toggle = document.querySelector('.toggle');
 { document.querySelector(".switch").style.display = "none"; }
 { document.querySelector(".toggle").style.display = "none"; }
 
+{ document.querySelector(".push3").style.display = "none"; }
+{ document.querySelector(".push4").style.display = "none"; }
+{ document.querySelector(".push5").style.display = "none"; }
 
 
 
@@ -44,6 +47,9 @@ function push2Click () {
     { document.querySelector(".ispejimas2").style.display = "none"; }
     { document.querySelector(".img").style.display = "none"; }
 
+    { document.querySelector(".push3").style.display = "block"; }
+    { document.querySelector(".push4").style.display = "block"; }
+    { document.querySelector(".push5").style.display = "block"; }
 }
 
 function switchhClick () {
@@ -55,6 +61,11 @@ function switchhClick () {
         { document.querySelector(".toggle").style.display = "none"; }
 
         { document.querySelector(".ispejimas3").style.display = "none"; }
+
+        { document.querySelector(".push3").style.display = "none"; }
+        { document.querySelector(".push4").style.display = "none"; }
+        { document.querySelector(".push5").style.display = "none"; }
+
     }, 1000);
 }
 

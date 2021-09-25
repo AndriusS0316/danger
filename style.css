@@ -209,17 +209,18 @@ input:checked + .slider:before {
     color: solid;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: orange;
+    background-color: lightblue;
     display: flex;
     gap: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 100px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
 }
 .push4 {
     padding: 15px 40px;
@@ -233,7 +234,7 @@ input:checked + .slider:before {
     color: solid;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: orange;
+    background-color: yellow;
     display: flex;
     gap: 20px;
     position: absolute;
@@ -241,9 +242,10 @@ input:checked + .slider:before {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 100px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
 }
 .push5 {
     padding: 15px 40px;
@@ -257,15 +259,25 @@ input:checked + .slider:before {
     color: solid;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: orange;
+    background-color: green;
     display: flex;
     gap: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 75%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 100px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.push3:hover, .push4:hover, .push5:hover {
+    background: orange;
+}
+.push3:hover, .push4:hover {
+    color: white;
+}
+.push5:hover {
+    color: black;
 }
